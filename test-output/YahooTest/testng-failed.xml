@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [YahooTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Yahoo App test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="emailid" value="test@yahoo.com"/>
+    <parameter name="url" value="https://login.yahoo.com/?"/>
+    <classes>
+      <class name="testng.howtoPassParameter">
+        <methods>
+          <include name="YahooLogintest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng.howtoPassParameter -->
+    </classes>
+  </test> <!-- Yahoo App test(failed) -->
+</suite> <!-- Failed suite [YahooTest] -->

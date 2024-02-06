@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name= "YahooTest" >
+<test name ="Yahoo App test">
+	
+   <parameter name  ="browser" value ="chrome"/>
+    <parameter name="url" value="https://login.yahoo.com/?" />
+    <parameter name  ="emailid"  value ="test@yahoo.com"/>
+	<!-- <parameter name  ="username"  value ="testuser"/>-->
+	
+   
+   <classes>
+	   
+	   <class name  ="testng.howtoPassParameter"/>
+	   
+   </classes>
+    
+</test>
+</suite>

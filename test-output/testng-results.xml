@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-16T16:33:52 IST" name="Suite1" finished-at="2024-01-16T16:34:07 IST" duration-ms="14437">
+    <groups>
+    </groups>
+    <test started-at="2024-01-16T16:33:52 IST" name="TestonChrome" finished-at="2024-01-16T16:34:00 IST" duration-ms="7314">
+      <class name="testng.Crossbrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testng.Crossbrowser@514646ef]" started-at="2024-01-16T16:33:52 IST" name="setup" finished-at="2024-01-16T16:33:55 IST" duration-ms="2099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:testng.Crossbrowser@514646ef]" started-at="2024-01-16T16:33:55 IST" name="login" finished-at="2024-01-16T16:33:59 IST" duration-ms="4829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.Crossbrowser@514646ef]" started-at="2024-01-16T16:33:59 IST" name="tearDown" finished-at="2024-01-16T16:34:00 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.Crossbrowser -->
+    </test> <!-- TestonChrome -->
+    <test started-at="2024-01-16T16:33:52 IST" name="Testonfirefox" finished-at="2024-01-16T16:34:05 IST" duration-ms="12401">
+      <class name="testng.Crossbrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testng.Crossbrowser@194fad1]" started-at="2024-01-16T16:33:52 IST" name="setup" finished-at="2024-01-16T16:33:58 IST" duration-ms="5557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:testng.Crossbrowser@194fad1]" started-at="2024-01-16T16:33:58 IST" name="login" finished-at="2024-01-16T16:34:04 IST" duration-ms="5994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.Crossbrowser@194fad1]" started-at="2024-01-16T16:34:04 IST" name="tearDown" finished-at="2024-01-16T16:34:05 IST" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.Crossbrowser -->
+    </test> <!-- Testonfirefox -->
+    <test started-at="2024-01-16T16:34:00 IST" name="TestonIE" finished-at="2024-01-16T16:34:07 IST" duration-ms="7089">
+      <class name="testng.Crossbrowser">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testng.Crossbrowser@72c8e7b]" started-at="2024-01-16T16:34:00 IST" name="setup" finished-at="2024-01-16T16:34:02 IST" duration-ms="2448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:testng.Crossbrowser@72c8e7b]" started-at="2024-01-16T16:34:02 IST" name="login" finished-at="2024-01-16T16:34:07 IST" duration-ms="4488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.Crossbrowser@72c8e7b]" started-at="2024-01-16T16:34:07 IST" name="tearDown" finished-at="2024-01-16T16:34:07 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.Crossbrowser -->
+    </test> <!-- TestonIE -->
+  </suite> <!-- Suite1 -->
+</testng-results>
